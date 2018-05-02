@@ -97,7 +97,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".navbar-default {\r\n  background-color: darksalmon !important;\r\n}\r\n\r\n.navbar {\r\n  border-radius: 0px;\r\n}\r\n", ""]);
+exports.push([module.i, ".navbar-default {\r\n  background-color: darksalmon !important;\r\n}\r\n\r\n.navbar {\r\n  border-radius: 0px;\r\n}\r\n\r\n\r\nm-t-lg{\r\n  padding-top: 5px;\r\n}\r\n", ""]);
 
 // exports
 
