@@ -1,8 +1,15 @@
 <app-header (featureSelected)="onNavigate($event)"></app-header>
+<app-nav></app-nav>
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-1">
+      <app-adds></app-adds>
+    </div>
+    <div class="col-md-9">
       <router-outlet></router-outlet>
+    </div>
+    <div class="col-md-2">
+      <app-adds></app-adds>
     </div>
   </div>
 </div>

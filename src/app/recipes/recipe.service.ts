@@ -11,16 +11,16 @@ export class RecipeService {
 
   private recipes: Recipe[] = [
     new Recipe(
-      'Tasty Schnitzel',
+      'Job Posting',
       'A super-tasty Schnitzel - just awesome!',
-      'https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG',
+      'http://hudsonarealibrary.org/wp-content/uploads/2012/04/jobs.jpg',
       [
         new Ingredient('Meat', 1),
         new Ingredient('French Fries', 20)
       ]),
-    new Recipe('Big Fat Burger',
+    new Recipe('Event Management',
       'What else you need to say?',
-      'https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg',
+      'http://specialeventsinstitute.com/wp-content/uploads/2013/12/A-Career-in-Events-copy.png',
       [
         new Ingredient('Buns', 2),
         new Ingredient('Meat', 1)
